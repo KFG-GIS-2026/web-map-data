@@ -4,4 +4,9 @@ This data repository contains part of the data used to create the  **[web-map](h
 
 - GeoJSON files for points of interest  
 - Boundary geometries  
-- Icon symbols used in the web map  
+- Icon symbols used in the web map
+- shadow pmtiles from May to September  
+
+# License
+
+Data usage is subject to the respective licenses of the data providers.
