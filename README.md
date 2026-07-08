@@ -1,12 +1,24 @@
 # web-map-data
 
-This data repository contains the data used to create the  **[web-map](https://github.com/KFG-GIS-2026/web-map)** for Neckargemünd
+This repository contains the geospatial datasets used by the **[web-map](https://github.com/KFG-GIS-2026/web-map)** for Neckargemünd.
 
-- GeoJSON files for points of interest  
-- Boundary geometries  
+## Contents
+
+- GeoJSON files for points of interest
+- Boundary geometries
 - Icon symbols used in the web map
-- shadow pmtiles from May to September  
+- Shadow PMTiles (May–September)
 
-# License
+## Data Hosting
 
-Data usage is subject to the respective licenses of the data providers.
+The datasets are publicly hosted via **GitHub Pages** and can be accessed directly through static URLs.
+
+Example:
+
+https://kfg-gis-2026.github.io/web-map-data/osm_poi/Brunnen.geojson
+
+These URLs are intended for direct use in web applications.
+
+## License
+
+Data usage is subject to the respective licenses of the original data providers.
