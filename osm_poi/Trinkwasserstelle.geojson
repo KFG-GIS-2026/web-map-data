@@ -1,11 +1,231 @@
 {
-"type": "FeatureCollection",
-"name": "Trinkwasserstelle",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "osm_id": 303544486, "Beschränkung": "Kostenfrei", "amenity": "drinking_water", "natural": "spring", "fee": null, "man_made": null, "access": null, "covered": null, "drinking_water": null }, "geometry": { "type": "Point", "coordinates": [ 8.8300133, 49.390849699999968 ] } },
-{ "type": "Feature", "properties": { "osm_id": 6680003135, "Beschränkung": "Kostenfrei", "amenity": "drinking_water", "natural": null, "fee": null, "man_made": null, "access": null, "covered": null, "drinking_water": null }, "geometry": { "type": "Point", "coordinates": [ 8.8394328, 49.379672899999989 ] } },
-{ "type": "Feature", "properties": { "osm_id": 11887128564, "Beschränkung": "Kostenfrei", "amenity": "drinking_water", "natural": null, "fee": "no", "man_made": "water_tap", "access": null, "covered": null, "drinking_water": null }, "geometry": { "type": "Point", "coordinates": [ 8.8367772, 49.4054476 ] } },
-{ "type": "Feature", "properties": { "osm_id": 11887136472, "Beschränkung": "Zahlungspflichtig", "amenity": "water_point", "natural": null, "fee": "yes", "man_made": null, "access": "customers", "covered": "no", "drinking_water": "yes" }, "geometry": { "type": "Point", "coordinates": [ 8.8365527, 49.4053422 ] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8367772,
+          49.4054476
+        ]
+      },
+      "properties": {
+        "osm_id": 11887128564,
+        "beschränkung": "Zahlungspflichtig",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8365527,
+          49.4053422
+        ]
+      },
+      "properties": {
+        "osm_id": 11887136472,
+        "beschränkung": "Zahlungspflichtig",
+        "access": "customers",
+        "amenity": "water_point",
+        "covered": "no",
+        "drinking_water": "yes",
+        "fee": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8001744,
+          49.3930636
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027224,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Café m&e",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7994207,
+          49.393176
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027225,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Stadtbücherei & Museum im Alten Rathaus",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8002741,
+          49.3931236
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027226,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Wahlkreisbüro MdL Hermino Katzenstein (B'90/Grüne)",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7992342,
+          49.393972
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027227,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Markt-Apotheke",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7983586,
+          49.3944985
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027228,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Frieda´s Delikates & Schönes",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7982419,
+          49.3945919
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027229,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Kleine Keramik",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.797326,
+          49.3949664
+        ]
+      },
+      "properties": {
+        "osm_id": 14101027230,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten beachten",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Hotel Kredell - Grüner Salon",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7892089,
+          49.394767
+        ]
+      },
+      "properties": {
+        "osm_id": 14124254100,
+        "beschränkung": "Kostenfrei",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Wasserspender der Stadtwerke neben dem Energieladen im Bürgerbüro.\nÖffnungszeiten Rathaus:\nMo 08:00-12:00 Uhr\nDi 08:00-12:00 Uhr (nur nach vorheriger Terminvereinbarung)\nMi 08:00-12:00 Uhr\nDo 14:00-18:00 Uhr\nFr 08:00-12:00 Uhr",
+        "fee": "no",
+        "name": "Refill-Station",
+        "operator": "Energieladen der Stadtwerke im Rathaus",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7997229,
+          49.3928858
+        ]
+      },
+      "properties": {
+        "osm_id": 14127985654,
+        "beschränkung": "Kostenfrei",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Öffnungszeiten:\nMontag: 14:30 - 18:30\nDienstag: 10:00 -13:00 und 14:30 - 18:30\nMittwoch: 10:00 -13:00\nDonnerstag: 10:00 -13:00 und 14:30 - 18:30\nFreitag: 10:00 -13:00 und 14:30 - 18:30\nSamstag: 10:00 -13:00",
+        "fee": "no",
+        "name": "Refill-Station",
+        "website": "https://refill-deutschland.de/karte/"
+      }
+    }
+  ]
 }
