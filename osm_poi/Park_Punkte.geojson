@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.801723552542375,
-          49.39290511355931
+          8.801723552542374,
+          49.39290511355932
         ]
       },
       "properties": {
@@ -180,26 +180,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.80347789,
-          49.37994477
-        ]
-      },
-      "properties": {
-        "osm_id": 24717422,
-        "beschränkung": "Kostenfrei",
-        "access": "yes",
-        "leisure": "park",
-        "name": "Generationengarten",
-        "website": "http://wiesenbacher-tal.de/index.php"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.776763700000002,
-          49.39280498461538
+          8.7767637,
+          49.39280498461539
         ]
       },
       "properties": {
@@ -369,7 +351,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.852281666666668,
+          8.852281666666666,
           49.38506715
         ]
       },
@@ -541,7 +523,7 @@
         "type": "Point",
         "coordinates": [
           8.80040452,
-          49.37770032
+          49.377700319999995
         ]
       },
       "properties": {
