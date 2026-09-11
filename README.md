@@ -8,58 +8,9 @@ Dieses Repository enthält die öffentlich bereitgestellten Geodaten und Kartens
 
 > **Hinweis:** Die Sonnen- und Schattenwerte sind modellierte Näherungen für einen wolkenfreien Himmel. Sie ersetzen keine Messungen vor Ort und werden ohne Gewähr bereitgestellt.
 
-## Inhalt
-
-```text
-web-map-data/
-├── boundary/
-│   └── Neckargemuend_boundary.geojson
-├── osm_poi/
-│   ├── Brunnen.geojson
-│   ├── Bücherei.geojson
-│   ├── Gewässer.geojson
-│   ├── Kirche.geojson
-│   ├── Museum.geojson
-│   ├── Park_Punkte.geojson
-│   ├── Sitzbank.geojson
-│   ├── Spielplatz_Punkte.geojson
-│   ├── Toilete.geojson
-│   └── Trinkwasserstelle.geojson
-├── poi_symbols/
-│   └── *.png
-└── shadows/
-    ├── 5_1/
-    ├── 5_15/
-    ├── 6_1/
-    ├── 6_15/
-    ├── 7_1/
-    ├── 7_15/
-    ├── 8_1/
-    ├── 8_15/
-    ├── 9_1/
-    └── 9_15/
-```
-
-## Datenkatalog
-
 ### Points of Interest
 
 Alle POI-Dateien sind GeoJSON-`FeatureCollection`s. Die in der Webkarte dargestellten Objekte besitzen Punktgeometrien in WGS 84.
-
-| Datei | Kategorie | Objekte | Verwendung in der Webkarte |
-| --- | --- | ---: | --- |
-| `Spielplatz_Punkte.geojson` | Spielplätze | 20 | POI und Sonnenbelastung |
-| `Park_Punkte.geojson` | Parks | 5 | POI und Sonnenbelastung |
-| `Sitzbank.geojson` | Sitzbänke | 377 | POI und Sonnenbelastung |
-| `Trinkwasserstelle.geojson` | Trinkwasserstellen | 16 | POI |
-| `Toilete.geojson` | öffentliche Toiletten | 9 | POI |
-| `Kirche.geojson` | Kirchen | 13 | POI |
-| `Brunnen.geojson` | Brunnen | 17 | POI |
-| `Bücherei.geojson` | Büchereien | 1 | POI |
-| `Museum.geojson` | Museen | 1 | POI |
-| `Gewässer.geojson` | Gewässer | 28 | derzeit nicht als POI-Kategorie eingebunden |
-
-Die Objektzahlen entsprechen dem aktuellen Datenstand und können sich mit späteren Aktualisierungen ändern.
 
 Viele Eigenschaften stammen aus OpenStreetMap, beispielsweise `name`, `amenity`, `opening_hours`, `wheelchair` und `osm_id`. Nicht jedes Objekt besitzt alle Attribute. Anwendungen müssen daher mit fehlenden oder leeren Werten umgehen können.
 
@@ -165,46 +116,19 @@ Die zentrale Zuordnung befindet sich im Webkarten-Repository in `src/js/config.j
 
 Beim Umbenennen oder Verschieben einer Datei muss daher auch die Konfiguration beziehungsweise die URL-Erzeugung der Webkarte angepasst werden.
 
-## Daten erstellen und aktualisieren
+## Automatische Aktualisierung der OSM‑POI‑Daten (Cronjob + CI/CD)
 
-Die Skripte zur Erzeugung und Aufbereitung der Daten befinden sich im Repository [data_processing](https://github.com/KFG-GIS-2026/data_processing). Der dort dokumentierte Workflow umfasst:
+Dieses Repository aktualisiert die POI‑GeoJSON‑Dateien **automatisch** über eine GitHub‑Actions‑Pipeline.
 
-1. Download und räumliche Auswahl von OpenStreetMap-Daten
-2. Berechnung der Sonnenstrahlung und des Schattenwurfs mit GRASS GIS
-3. Erzeugung transparenter Schattenmasken als GeoTIFF
-4. Konvertierung der Rasterdaten über MBTiles nach PMTiles
-5. Übernahme der fertigen Webdaten in dieses Repository
+### Ablauf
 
-Bei einer Aktualisierung sollten folgende Bedingungen erhalten bleiben:
-
-- GeoJSON-Dateien verwenden WGS 84 beziehungsweise CRS84.
-- Die von der Webkarte geladenen POI-Dateien enthalten Punktgeometrien.
-- Dateinamen einschließlich Groß-/Kleinschreibung und Umlauten stimmen mit `src/js/config.js` überein.
-- Strahlungsattribute verwenden das Schema `MMTT_SS`.
-- Schattenordner und PMTiles-Dateien verwenden das oben beschriebene Namensschema.
-- Neue Referenztage oder Uhrzeiten werden auch in der Webkarte ergänzt.
-
-Vor einem Commit sollten alle GeoJSON-Dateien auf gültiges JSON, erwartete Geometrietypen und plausible Koordinaten geprüft werden. Wegen der Größe der PMTiles-Dateien sollten außerdem Dateigrößen und Git-Diff kontrolliert werden.
-
-## Lokale Kontrolle
-
-Für eine einfache lokale Bereitstellung kann im Repository-Stammverzeichnis ein Webserver gestartet werden:
-
-```bash
-python -m http.server 8000
-```
-
-Danach ist beispielsweise die Brunnen-Datei unter folgender Adresse erreichbar:
-
-```text
-http://localhost:8000/osm_poi/Brunnen.geojson
-```
-
-Für eine vollständige visuelle Prüfung sollte die lokale Kopie der Webkarte vorübergehend auf diese Basisadresse verweisen.
-
-## Deployment
-
-Das Repository benötigt keinen Build-Prozess. GitHub Pages veröffentlicht die Dateien statisch aus dem konfigurierten Branch. Nach einem Push kann es einige Minuten dauern, bis neue oder geänderte Daten unter der öffentlichen Basisadresse verfügbar sind.
+1. GitHub Actions startet täglich um **01:00 UTC**  
+   (02:00 MEZ / 03:00 MESZ).
+2. Python wird eingerichtet (Version 3.12).
+3. Abhängigkeiten aus `requirements.txt` werden installiert.
+4. Das Skript `scripts/fetch_osm_data.py` lädt alle relevanten POIs aus OSM.
+5. GeoJSON-Dateien werden neu erzeugt.
+6. Änderungen werden automatisch committed und gepusht.
 
 ## Datenquellen und Lizenzen
 
