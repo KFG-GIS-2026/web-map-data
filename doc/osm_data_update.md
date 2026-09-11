@@ -1,11 +1,11 @@
 # Wie Änderungen in OSM in der Webkarte erscheinen
 
-Wenn etwas in OpenStreetMap geändert wird, z. B.:
+Wenn man in OpenStreetMap etwas verändert, z. B.:
 
-- einen Brunnen hinzufügst  
-- eine Bank verschiebst
-- ein Trinkwasserbrunnen löschst  
-- eine Kirche korrigierst  
+- einen Brunnen hinzufügt  
+- eine Bank verschiebt
+- ein Trinkwasserbrunnen löscht  
+- eine Kirche korrigiert  
 - Öffnungszeiten ergänzt  
 
 So läuft der Prozess ab:
