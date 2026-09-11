@@ -1,0 +1,59 @@
+name: Update OSM POI Data
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # Runs daily at 01:00 UTC (02:00 MEZ / 03:00 MESZ)
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch OSM data
+        run: |
+          python scripts/fetch_osm_data.py || {
+            echo "OSM fetch failed — Overpass may be down.";
+            exit 1;
+          }
+
+      - name: Prepare commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git pull --rebase
+
+          git add osm_poi/
+
+          if git diff --cached --quiet; then
+            echo "No changes — no commit needed."
+          else
+            echo "Changes detected:"
+            git diff --stat --cached
+
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "chore: Updated OSM POI data (${TIMESTAMP})"
+            git push
+          fi
