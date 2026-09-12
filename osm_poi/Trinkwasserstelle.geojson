@@ -85,27 +85,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.8002741,
-          49.3931236
-        ]
-      },
-      "properties": {
-        "osm_id": 14101027226,
-        "beschränkung": "Kostenfrei",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "description": "Öffnungszeiten beachten",
-        "fee": "no",
-        "name": "Refill-Station",
-        "operator": "Wahlkreisbüro MdL Hermino Katzenstein (B'90/Grüne)",
-        "website": "https://refill-deutschland.de/karte/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.7992342,
           49.393972
         ]
