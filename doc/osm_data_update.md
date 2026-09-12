@@ -8,26 +8,25 @@ Wenn man in OpenStreetMap etwas verändert, z. B.:
 - eine Kirche korrigiert  
 - Öffnungszeiten ergänzt  
 
-So läuft der Prozess ab:
+dann läuft der Prozess so ab:
 
 ### 1. Änderung in OSM  
 Ein Objekt wird in OSM bearbeitet (iD‑Editor, JOSM).
 
 ### 2. Änderung wird in Overpass sichtbar  
-Nach wenigen Minuten bis Stunden.
+Nach wenigen Minuten bis Stunden werden die Änderungen sichtbar.
 
-### 3. Daten werden aktualisiert  
-Jede Nacht werden neue Daten aktualisiert
+### 3. Daten werden für Kühle Karte Neckargemünd aktualisiert  
+Jede Nacht werden neue Daten aktualisiert.
 
-### 4. Webkarte zeigt die neuen Daten  
-Beim nächsten Öffnen der Webkarte sind die neuen Daten sichtbar
+### 4. Webkarte Kühle Karte Neckargemünd zeigt die neuen Daten  
+Beim nächsten Öffnen der Webkarte sind die neuen Daten sichtbar.
 
 ---
 
 ## Relevante OSM‑Tags
 
 ### Kirchen
-Objekte erscheinen als „Kirche“, wenn sie einen der folgenden Tags besitzen:
 
 - `building=church`
 - `amenity=place_of_worship`
@@ -35,14 +34,14 @@ Objekte erscheinen als „Kirche“, wenn sie einen der folgenden Tags besitzen:
 ---
 
 ### Brunnen
-Klassische Brunnen, dekorative Wasserobjekte oder historische Brunnen:
+Klassische Brunnen, dekorative Wasserobjekte oder historische Brunnen
 
 - `amenity=fountain`
 
 ---
 
 ### Trinkwasserstellen
-Alle Arten von öffentlichen Wasserentnahmestellen:
+Alle Arten von öffentlichen Wasserentnahmestellen
 
 - `amenity=drinking_water`
 - `amenity=water_point`
@@ -51,7 +50,7 @@ Alle Arten von öffentlichen Wasserentnahmestellen:
 ---
 
 ### Parks
-Flächen, die als Park oder Erholungsfläche gelten:
+Flächen, die als Park oder Erholungsfläche gelten
 
 - `leisure=park`
 - `landuse=recreation_ground`
@@ -71,20 +70,17 @@ Flächen, die als Park oder Erholungsfläche gelten:
 ---
 
 ### Toiletten
-Öffentliche Toiletten:
 
 - `amenity=toilets`
 
 ---
 
 ### Bücherei
-Bibliotheken und öffentliche Lesestellen:
 
 - `amenity=library`
 
 ---
 
 ### Museum
-Museen und Ausstellungen:
 
 - `tourism=museum`
