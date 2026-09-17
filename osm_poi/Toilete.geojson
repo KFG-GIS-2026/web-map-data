@@ -131,39 +131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7892231,
-          49.3948093
-        ]
-      },
-      "properties": {
-        "osm_id": 14101027222,
-        "beschränkung": "Kostenfrei",
-        "access": "yes",
-        "amenity": "toilets",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.7944111,
-          49.3961908
-        ]
-      },
-      "properties": {
-        "osm_id": 14101027223,
-        "beschränkung": "Zahlungspflichtig",
-        "access": "customers",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.83669738,
           49.398708920000004
         ]

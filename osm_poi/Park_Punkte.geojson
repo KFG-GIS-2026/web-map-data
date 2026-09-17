@@ -180,6 +180,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.810373261363637,
+          49.3936935
+        ]
+      },
+      "properties": {
+        "osm_id": 37612601,
+        "beschränkung": "Kostenfrei",
+        "addr:city": "Neckargemünd",
+        "addr:housenumber": "26",
+        "addr:postcode": "69151",
+        "addr:street": "Schwimmbadstraße",
+        "landuse": "recreation_ground",
+        "leisure": "water_park",
+        "name": "Terrassen-Freischwimmbad",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.7767637,
           49.39280498461539
         ]
