@@ -178,24 +178,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.80347789,
-          49.379944769999994
-        ]
-      },
-      "properties": {
-        "osm_id": 24717422,
-        "beschränkung": "Kostenfrei",
-        "access": "yes",
-        "leisure": "playground",
-        "name": "Generationengarten",
-        "website": "http://wiesenbacher-tal.de/index.php"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.804650866666668,
           49.38204138333333
         ]
@@ -1061,7 +1043,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.809001216666667,
+          8.808995416666667,
           49.39384188333333
         ]
       },
@@ -1226,7 +1208,6 @@
         "beschränkung": "Zahlungspflichtig",
         "access": "customers",
         "leisure": "playground",
-        "source:geometry": "HiRes aerial imagery",
         "wheelchair": "yes"
       }
     },
@@ -3123,6 +3104,26 @@
         "osm_id": 865607273,
         "beschränkung": "Kostenfrei",
         "leisure": "playground"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7939437625,
+          49.39309565
+        ]
+      },
+      "properties": {
+        "osm_id": 1531391217,
+        "beschränkung": "Kostenfrei",
+        "access": "yes",
+        "description": "Das Spielen auf dem Schulhof ist für Kinder bis 14 Jahre von Montag bis Freitag 14.30 bis 18.30 erlaubt.",
+        "leisure": "playground",
+        "max_age": "14",
+        "opening_hours": "Mo-Sa 14:30-18:30; Sa 09:30-13:30",
+        "surface": "asphalt"
       }
     }
   ]

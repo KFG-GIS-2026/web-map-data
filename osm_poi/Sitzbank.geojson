@@ -5216,7 +5216,11 @@
         "osm_id": 765941773,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "armrest": "no",
         "backrest": "yes",
+        "check_date": "2026-08-05",
+        "inscription": "In Erinnerung an Kurt Seufert",
+        "material": "wood",
         "seats": "4"
       }
     },
@@ -7479,7 +7483,9 @@
         "osm_id": 795825449,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "armrest": "no",
         "backrest": "yes",
+        "check_date": "2026-08-05",
         "colour": "green",
         "material": "wood",
         "seats": "4",
@@ -7655,7 +7661,10 @@
         "osm_id": 796214191,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "armrest": "no",
         "backrest": "yes",
+        "check_date": "2026-05-23",
+        "material": "wood",
         "seats": "4",
         "vegetation": "none"
       }
@@ -12191,6 +12200,7 @@
         "osm_id": 1370480745,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "armrest": "no",
         "backrest": "no",
         "check_date": "2024-10-05",
         "colour": "brown",
@@ -12713,6 +12723,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-08-05",
         "seats": "5"
       }
     },
@@ -13244,8 +13255,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7714481,
-          49.3739051
+          8.7714474,
+          49.3739124
         ]
       },
       "properties": {
@@ -13411,8 +13422,7 @@
         "backrest": "yes",
         "colour": "brown",
         "material": "wood",
-        "seats": "4",
-        "source:position": "HiRes aerial imagery"
+        "seats": "4"
       }
     },
     {
@@ -16024,6 +16034,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "material": "wood",
         "source": "HiRes aerial imagery"
       }
@@ -16198,6 +16209,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "material": "wood"
       }
     },
@@ -17603,7 +17615,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
-        "check_date": "2022-06-02",
+        "check_date": "2026-06-15",
         "material": "wood",
         "seats": "4"
       }
@@ -19344,6 +19356,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "material": "plastic",
         "source": "HiRes aerial imagery"
       }
@@ -21792,6 +21805,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:geometry": "HiRes aerial imagery"
       }
@@ -21966,6 +21980,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:geometry": "HiRes aerial imagery"
       }
@@ -22140,6 +22155,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:geometry": "HiRes aerial imagery"
       }
@@ -25813,6 +25829,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
       }
@@ -25987,6 +26004,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
       }
@@ -26161,6 +26179,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
       }
@@ -26335,6 +26354,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
       }
@@ -38886,6 +38906,7 @@
         "osm_id": 3431461509,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "backrest": "no",
         "level": "-1"
       }
     },
@@ -41671,6 +41692,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-24",
         "seats": "4"
       }
     },
@@ -41844,6 +41866,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-24",
         "seats": "4"
       }
     },
@@ -44275,7 +44298,9 @@
         "osm_id": 4008420715,
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
+        "armrest": "no",
         "backrest": "yes",
+        "material": "wood",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
       }
@@ -50349,6 +50374,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-05-27",
         "material": "wood",
         "seats": "4"
       }
@@ -62028,7 +62054,7 @@
         "type": "Point",
         "coordinates": [
           8.7886414,
-          49.3937408
+          49.3937398
         ]
       },
       "properties": {
@@ -65682,6 +65708,56 @@
         "backrest": "yes",
         "material": "wood",
         "seats": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7886089,
+          49.3937305
+        ]
+      },
+      "properties": {
+        "osm_id": 14081013730,
+        "beschränkung": "Kostenfrei",
+        "amenity": "bench",
+        "backrest": "no",
+        "covered": "no",
+        "level": "1",
+        "material": "metal",
+        "seats": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7865972,
+          49.3949832
+        ]
+      },
+      "properties": {
+        "osm_id": 14091505204,
+        "beschränkung": "Kostenfrei",
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7867872,
+          49.3950307
+        ]
+      },
+      "properties": {
+        "osm_id": 14091505205,
+        "beschränkung": "Kostenfrei",
+        "amenity": "bench"
       }
     }
   ]
