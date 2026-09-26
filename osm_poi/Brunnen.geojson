@@ -22,22 +22,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.8300133,
-          49.3908497
-        ]
-      },
-      "properties": {
-        "osm_id": 303544486,
-        "beschränkung": "Kostenfrei",
-        "amenity": "fountain",
-        "natural": "spring"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.879058,
           49.4003787
         ]
@@ -61,7 +45,6 @@
         "osm_id": 1863723191,
         "beschränkung": "Kostenfrei",
         "amenity": "fountain",
-        "drinking_water": "yed",
         "source": "HiRes aerial imagery"
       }
     },
@@ -80,6 +63,22 @@
         "amenity": "fountain",
         "name": "Ölkrug-Brunnen",
         "source:position": "HiRes aerial imagery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.836183,
+          49.3986266
+        ]
+      },
+      "properties": {
+        "osm_id": 2290965227,
+        "beschränkung": "Kostenfrei",
+        "amenity": "fountain",
+        "source:geometry": "HiRes aerial imagery"
       }
     },
     {
