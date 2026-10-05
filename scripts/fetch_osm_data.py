@@ -46,7 +46,7 @@ OVERPASS_ENDPOINTS = [
 OUTPUT_DIR = Path(__file__).parent / "../osm_poi"
 
 MAX_RETRIES    = 5
-BACKOFF_FACTOR = 6  # Sekunden × Versuch
+BACKOFF_FACTOR = 30  # Sekunden × Versuch
 
 
 # ── Overpass-Query ────────────────────────────────────────────────────────────
