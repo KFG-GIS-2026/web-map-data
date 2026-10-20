@@ -268,7 +268,8 @@
         "name": "Sankt Josef",
         "religion": "christian",
         "source:geometry": "HiRes aerial imagery",
-        "wheelchair": "limited"
+        "wheelchair": "limited",
+        "wikidata": "Q111033758"
       }
     },
     {
