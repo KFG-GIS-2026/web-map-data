@@ -1554,7 +1554,8 @@
         "0915_20": 0.0,
         "osm_id": 316113890,
         "beschränkung": "Kostenfrei",
-        "amenity": "bench"
+        "amenity": "bench",
+        "backrest": "no"
       }
     },
     {
@@ -43607,6 +43608,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-28",
         "seats": "4"
       }
     },
@@ -43780,6 +43782,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-28",
         "seats": "4"
       }
     },
@@ -43953,6 +43956,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-28",
         "seats": "4"
       }
     },
@@ -44126,6 +44130,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-28",
         "seats": "4"
       }
     },

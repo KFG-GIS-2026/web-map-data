@@ -2585,6 +2585,7 @@
         "0915_20": 0.0,
         "osm_id": 179156832,
         "beschränkung": "Kostenfrei",
+        "access": "yes",
         "leisure": "playground",
         "ref": "Kraichgaustraße 1/1"
       }
@@ -2930,6 +2931,7 @@
         "0915_20": 0.0,
         "osm_id": 391813740,
         "beschränkung": "Kostenfrei",
+        "access": "yes",
         "leisure": "playground",
         "name": "Hanna-Weis-Platz",
         "operator": "Stadt Neckargemünd"
