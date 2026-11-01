@@ -106,48 +106,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7983586,
-          49.3944985
-        ]
-      },
-      "properties": {
-        "osm_id": 14101027228,
-        "beschränkung": "Kostenfrei",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "description": "Öffnungszeiten beachten",
-        "fee": "no",
-        "name": "Refill-Station",
-        "operator": "Frieda´s Delikates & Schönes",
-        "website": "https://refill-deutschland.de/karte/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.7982419,
-          49.3945919
-        ]
-      },
-      "properties": {
-        "osm_id": 14101027229,
-        "beschränkung": "Kostenfrei",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "description": "Öffnungszeiten beachten",
-        "fee": "no",
-        "name": "Refill-Station",
-        "operator": "Kleine Keramik",
-        "website": "https://refill-deutschland.de/karte/"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.797326,
           49.3949664
         ]

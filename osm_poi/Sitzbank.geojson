@@ -17791,6 +17791,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-31",
         "material": "wood",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
@@ -17966,6 +17967,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-31",
         "material": "wood",
         "seats": "4",
         "source:position": "HiRes aerial imagery"
@@ -35603,6 +35605,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-31",
         "seats": "4",
         "source:position": "Bing 2012"
       }
@@ -35777,6 +35780,7 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench",
         "backrest": "yes",
+        "check_date": "2026-10-31",
         "seats": "4",
         "source:position": "Bing 2012"
       }
