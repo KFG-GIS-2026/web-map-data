@@ -96,6 +96,7 @@
         "bottle": "yes",
         "description": "Öffnungszeiten beachten",
         "fee": "no",
+        "man_made": "water_tap",
         "name": "Refill-Station",
         "operator": "Markt-Apotheke",
         "website": "https://refill-deutschland.de/karte/"
