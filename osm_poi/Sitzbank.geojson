@@ -65600,6 +65600,24 @@
         "beschränkung": "Kostenfrei",
         "amenity": "bench"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7938569,
+          49.3817005
+        ]
+      },
+      "properties": {
+        "osm_id": 14357042297,
+        "beschränkung": "Kostenfrei",
+        "amenity": "bench",
+        "backrest": "no",
+        "material": "wood",
+        "seats": "3"
+      }
     }
   ]
 }
