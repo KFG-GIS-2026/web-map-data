@@ -225,9 +225,11 @@
         "osm_id": 25099700,
         "beschränkung": "Kostenfrei",
         "access": "yes",
+        "check_date:opening_hours": "2026-11-14",
         "leisure": "playground",
         "name": "Menzerpark Dilsberger Straße",
         "opening_hours": "08:00-13:00,15:00-20:00",
+        "opening_hours:signed": "no",
         "wheelchair": "yes"
       }
     },
@@ -590,7 +592,8 @@
       },
       "properties": {
         "osm_id": 123592659,
-        "beschränkung": "Kostenfrei",
+        "beschränkung": "Zahlungspflichtig",
+        "access": "customers",
         "leisure": "playground",
         "wheelchair": "no"
       }
