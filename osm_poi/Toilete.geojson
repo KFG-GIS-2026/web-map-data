@@ -164,21 +164,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7892247,
-          49.3947561
-        ]
-      },
-      "properties": {
-        "osm_id": 14380647701,
-        "beschränkung": "Kostenfrei",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.83669738,
           49.398708920000004
         ]
